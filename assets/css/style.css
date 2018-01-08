@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 h1 {
   font-family: 'Cinzel Decorative', cursive;
   text-align: center;
@@ -7,6 +11,10 @@ h1 {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  /* background-color: #D6F9DD; This green is a light green*/
+  background-color: #062726;
+  margin: 0;
+  padding: 0;
 }
 .bat {
   align-self: left;
@@ -15,17 +23,16 @@ h1 {
 }
 .navbar a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
 }
 .navbar a:hover {
+  color: #52FFB8;
   animation:
-    blink 1.5s step-end infinite
+    blink 1.5s step-end infinite;
 }
 .navbar h4 {
   font-family: 'Courgette', cursive;
   font-size: 24px;
-}
-h4 {
   text-align: left;
   align-items: center;
   margin-right: 15px;
@@ -33,16 +40,16 @@ h4 {
 .titles-container {
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  position: absolute;
 }
 #name {
-  text-shadow: 0 0 5px #FF0000, 0 0 10px #0000FF;
+  text-shadow: 0 0 5px #A8F9FF, 0 0 10px #52FFB8;
   padding-right: 20px;
   font-size: 38px;
-  /* animation:
-    blink 1.5s step-end infinite */
 }
 #subtitle {
-  text-shadow: 0 0 5px #FF0000, 0 0 15px #0000FF;
+  text-shadow: 0 0 15px #A8F9FF, 0 0 20px #52FFB8;
   font-family: 'Courgette', cursive;
   color: #fff;
   flex-wrap: wrap;
@@ -50,11 +57,50 @@ h4 {
   font-size: 26px;
   padding-right: 20px;
 }
+.test {
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 650px;
+}
+.test p {
+  flex: 1 auto;
+  padding: 0.5rem;
+  text-align: left;
+}
+.test span {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  color: #000;
+  text-shadow: 0 0 15px #A8F9FF, 0 0 20px #52FFB8;
+}
+.text-collage {
+  display: flex;
+  flex-flow: row wrap;
+}
+.text-collage p {
+  padding-right: 15px;
+  text-align: left;
+  flex: 1 auto;
+  padding: 0.5rem;
+  text-align: center;
+}
+.text-collage span {
+  display: block;
+  /* background-color: #D6F9DD; */
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  color: #000;
+  text-shadow: 0 0 15px #A8F9FF, 0 0 20px #52FFB8;
+}
 #mixer {
   width: 180px;
   height: 200px;
   border-radius: 10px;
   border: 2px groove #000;
+}
+.about {
+  min-height: 100vh;
 }
 #line-rule {
   width: 30%;
@@ -68,6 +114,6 @@ p {
 }
 
 @keyframes blink {
-  from, to { color: #fff; }
-  50% { color: #000; }
+  from, to { color: #45F0DF; }
+  50% { color: #fff; }
 }

@@ -1,0 +1,51 @@
+h1 {
+  font-family: 'Cinzel Decorative', cursive;
+  text-align: center;
+}
+.starter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.bat {
+  align-self: left;
+}
+.navbar a {
+  text-decoration: none;
+  color: #000;
+}
+.navbar h4 {
+  font-family: 'Courgette', cursive;
+}
+h4 {
+  text-align: left;
+  align-items: center;
+  margin-right: 15px;
+}
+div {
+  flex-direction: column;
+  justify-content: center;
+}
+#name {
+  text-shadow: 0 0 5px #FF0000, 0 0 10px #0000FF;
+  padding-right: 20px;
+}
+#subtitle {
+  text-shadow: 0 0 5px #FF0000, 0 0 15px #0000FF;
+  /* font-family: 'Cinzel Decorative', cursive; */
+  font-family: 'Courgette', cursive;
+  color: #fff;
+  flex-wrap: wrap;
+  text-align: right;
+}
+#line-rule {
+  width: 30%;
+}
+p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}

@@ -19,11 +19,17 @@ h1 {
 .bat {
   align-self: left;
   animation:
-    blink 1.5s step-end infinite
+    blink 1.5s step-end infinite;
+}
+.navbar {
+  /* display: inline-flex; */
+  position: absolute;
+  margin-right: 35px;
 }
 .navbar a {
   text-decoration: none;
   color: #fff;
+  flex: 1;
 }
 .navbar a:hover {
   color: #52FFB8;
@@ -34,8 +40,8 @@ h1 {
   font-family: 'Courgette', cursive;
   font-size: 24px;
   text-align: left;
-  align-items: center;
-  margin-right: 15px;
+  margin-right: 450px;
+  margin-bottom: 30px;
 }
 .titles-container {
   flex-direction: column;
@@ -55,12 +61,12 @@ h1 {
   flex-wrap: wrap;
   text-align: right;
   font-size: 26px;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 .test {
   display: flex;
   flex-flow: row;
-  margin-bottom: 650px;
+  margin-bottom: 500px;
 }
 .test p {
   flex: 1 auto;
@@ -70,8 +76,7 @@ h1 {
 .test span {
   display: block;
   padding: 0.5rem 1rem;
-  border-radius: 3px;
-  color: #000;
+  color: #fff;
   text-shadow: 0 0 15px #A8F9FF, 0 0 20px #52FFB8;
 }
 .text-collage {
@@ -79,18 +84,17 @@ h1 {
   flex-flow: row wrap;
 }
 .text-collage p {
-  padding-right: 15px;
+  padding-right: 10px;
   text-align: left;
   flex: 1 auto;
-  padding: 0.5rem;
-  text-align: center;
+  padding: 0.3rem;
 }
 .text-collage span {
   display: block;
   /* background-color: #D6F9DD; */
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 1rem;
   border-radius: 3px;
-  color: #000;
+  color: #fff;
   text-shadow: 0 0 15px #A8F9FF, 0 0 20px #52FFB8;
 }
 #mixer {
@@ -98,6 +102,7 @@ h1 {
   height: 200px;
   border-radius: 10px;
   border: 2px groove #000;
+  margin-left: 160px;
 }
 .about {
   min-height: 100vh;
@@ -110,7 +115,7 @@ p {
   font-size: 20px;
   text-align: center;
   margin-left: 25%;
-  margin-right: 25%;
+  /* margin-right: 25%; */
 }
 
 @keyframes blink {

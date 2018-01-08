@@ -10,34 +10,51 @@ h1 {
 }
 .bat {
   align-self: left;
+  animation:
+    blink 1.5s step-end infinite
 }
 .navbar a {
   text-decoration: none;
   color: #000;
 }
+.navbar a:hover {
+  animation:
+    blink 1.5s step-end infinite
+}
 .navbar h4 {
   font-family: 'Courgette', cursive;
+  font-size: 24px;
 }
 h4 {
   text-align: left;
   align-items: center;
   margin-right: 15px;
 }
-div {
+.titles-container {
   flex-direction: column;
   justify-content: center;
 }
 #name {
   text-shadow: 0 0 5px #FF0000, 0 0 10px #0000FF;
   padding-right: 20px;
+  font-size: 38px;
+  /* animation:
+    blink 1.5s step-end infinite */
 }
 #subtitle {
   text-shadow: 0 0 5px #FF0000, 0 0 15px #0000FF;
-  /* font-family: 'Cinzel Decorative', cursive; */
   font-family: 'Courgette', cursive;
   color: #fff;
   flex-wrap: wrap;
   text-align: right;
+  font-size: 26px;
+  padding-right: 20px;
+}
+#mixer {
+  width: 180px;
+  height: 200px;
+  border-radius: 10px;
+  border: 2px groove #000;
 }
 #line-rule {
   width: 30%;
@@ -48,4 +65,9 @@ p {
   text-align: center;
   margin-left: 25%;
   margin-right: 25%;
+}
+
+@keyframes blink {
+  from, to { color: #fff; }
+  50% { color: #000; }
 }

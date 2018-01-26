@@ -1,10 +1,19 @@
 body {
-  margin: 0;
-  padding: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 h1 {
   font-family: 'Cinzel Decorative', cursive;
   text-align: center;
+}
+p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 25%;
 }
 .starter {
   display: flex;
@@ -63,17 +72,17 @@ h1 {
   font-size: 26px;
   padding-right: 10px;
 }
-.test {
+.text-row {
   display: flex;
   flex-flow: row;
   margin-bottom: 500px;
 }
-.test p {
+.text-row p {
   flex: 1 auto;
   padding: 0.5rem;
   text-align: left;
 }
-.test span {
+.text-row span {
   display: block;
   padding: 0.5rem 1rem;
   color: #fff;
@@ -105,18 +114,50 @@ h1 {
   margin-left: 160px;
 }
 .about {
-  min-height: 100vh;
+  max-height: 100vh;
 }
 #line-rule {
   width: 30%;
 }
-p {
-  font-family: 'Indie Flower', cursive;
-  font-size: 20px;
-  text-align: center;
-  margin-left: 25%;
-  /* margin-right: 25%; */
+.about h1 {
+  font-size: 32px;
 }
+.about p {
+  text-align: center;
+  font-size: 24px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+#fight-gif {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.skill-title {
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #52FFB8;
+  font-weight: 600;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+.skill-names {
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 18px;
+}
+.projects {
+  margin-top: 120px;
+  background-color: #D6F9DD;
+  padding: 20px;
+  max-height: 100vh;
+}
+
 
 @keyframes blink {
   from, to { color: #45F0DF; }

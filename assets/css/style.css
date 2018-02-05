@@ -3,53 +3,63 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
 }
 h1 {
   font-family: 'Cinzel Decorative', cursive;
   text-align: center;
 }
 p {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   text-align: center;
   margin-left: 25%;
+  color: #2B292E;
 }
 .starter {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  /* background-color: #D6F9DD; This green is a light green*/
-  background-color: #062726;
+  min-height: 90vh;
+  /* #062726 - dark green*/
+  background-image: url('../../img/background-theme.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   margin: 0;
   padding: 0;
 }
 .bat {
   align-self: left;
-  animation:
-    blink 1.5s step-end infinite;
+  /* animation:
+    blink 1.5s step-end infinite; */
+    color: white;
 }
 .navbar {
-  /* display: inline-flex; */
+  flex-direction: row;
   position: absolute;
-  margin-right: 35px;
+  margin-right: 10px;
+  display: inline-flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: space-around;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .navbar a {
   text-decoration: none;
   color: #fff;
-  flex: 1;
 }
 .navbar a:hover {
-  color: #52FFB8;
-  animation:
-    blink 1.5s step-end infinite;
+  color: #fff;
+  /* animation:
+    blink 1.5s step-end infinite; */
 }
 .navbar h4 {
   font-family: 'Courgette', cursive;
   font-size: 24px;
   text-align: left;
-  margin-right: 450px;
+  margin-left: 30px;
   margin-bottom: 30px;
 }
 .titles-container {
@@ -57,61 +67,31 @@ p {
   justify-content: center;
   align-items: center;
   position: absolute;
+  margin-top: 50px;
+  padding-right: 300px;
 }
 #name {
   text-shadow: 0 0 5px #A8F9FF, 0 0 10px #52FFB8;
   padding-right: 20px;
   font-size: 38px;
+  margin: 0;
 }
 #subtitle {
   text-shadow: 0 0 15px #A8F9FF, 0 0 20px #52FFB8;
   font-family: 'Courgette', cursive;
   color: #fff;
-  flex-wrap: wrap;
   text-align: right;
   font-size: 26px;
   padding-right: 10px;
+  margin: 0;
 }
-.text-row {
-  display: flex;
-  flex-flow: row;
-  margin-bottom: 500px;
-}
-.text-row p {
-  flex: 1 auto;
-  padding: 0.5rem;
-  text-align: left;
-}
-.text-row span {
-  display: block;
-  padding: 0.5rem 1rem;
-  color: #fff;
-  text-shadow: 0 0 15px #A8F9FF, 0 0 20px #52FFB8;
-}
-.text-collage {
-  display: flex;
-  flex-flow: row wrap;
-}
-.text-collage p {
-  padding-right: 10px;
-  text-align: left;
-  flex: 1 auto;
-  padding: 0.3rem;
-}
-.text-collage span {
-  display: block;
-  /* background-color: #D6F9DD; */
-  padding: 0.3rem 1rem;
-  border-radius: 3px;
-  color: #fff;
-  text-shadow: 0 0 15px #A8F9FF, 0 0 20px #52FFB8;
-}
-#mixer {
-  width: 180px;
-  height: 200px;
-  border-radius: 10px;
+#headshot {
+  width: 320px;
+  height: 350px;
+  border-radius: 230px;
   border: 2px groove #000;
-  margin-left: 160px;
+  margin-left: 200px;
+  margin-bottom: 10px;
 }
 .about {
   max-height: 100vh;
@@ -120,7 +100,9 @@ p {
   width: 30%;
 }
 .about h1 {
-  font-size: 32px;
+  font-family: 'VT323', monospace;
+  font-size: 50px;
+  color: #382E58;
 }
 .about p {
   text-align: center;
@@ -129,15 +111,18 @@ p {
   margin-left: 20%;
 }
 #fight-gif {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
+  position: fixed;
+  height: 100px;
+  width: 100px;
+  bottom: 0;
+  right: 0;
 }
 .skill-title {
   text-align: center;
-  font-family: 'Cinzel Decorative', cursive;
-  color: #52FFB8;
-  font-weight: 600;
+  font-family: 'VT323', monospace;
+  color: #382E58;
+  /* font-weight: 600; */
 }
 .flex-container {
   display: flex;
@@ -152,14 +137,18 @@ p {
   font-size: 18px;
 }
 .projects {
-  margin-top: 120px;
-  background-color: #D6F9DD;
+  /* background-color: #D6F9DD; */
   padding: 20px;
   max-height: 100vh;
+}
+.projects h1 {
+  font-family: 'VT323', monospace;
+  font-size: 50px;
+  color: #382E58;
 }
 
 
 @keyframes blink {
-  from, to { color: #45F0DF; }
+  from, to { color: #12356d; }
   50% { color: #fff; }
 }

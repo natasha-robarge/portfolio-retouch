@@ -20,6 +20,7 @@ h3 {
   font-size: 45px;
   color: #382E58;
   margin-left: 40px;
+  margin-top: 30px;
 }
 h4 {
   font-family: 'VT323', monospace;
@@ -70,6 +71,7 @@ p {
   align-self: flex-end;
   height: 500px;
   width: 260px;
+  margin: 0;
 }
 #frank-contract {
   border-radius: 30px;
@@ -83,13 +85,6 @@ p {
   margin-left: 40px;
   margin-right: 40px;
   padding: 0;
-}
-#frank-chatsupport {
-  border-radius: 30px;
-  height: 500px;
-  width: 260px;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 .switch-direction {
   margin-top: 50px;
@@ -108,6 +103,10 @@ p {
   align-items: flex-start;
 }
 #nommad-img {
+  width: 750px;
+  height: 500px;
+}
+#nommad-code {
   width: 750px;
   height: 500px;
 }

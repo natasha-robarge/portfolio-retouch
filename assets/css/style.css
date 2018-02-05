@@ -95,6 +95,7 @@ p {
 }
 .about {
   max-height: 100vh;
+  margin-top: 20px;
 }
 #line-rule {
   width: 30%;
@@ -138,15 +139,39 @@ p {
 }
 .projects {
   /* background-color: #D6F9DD; */
+  margin-bottom: 30px;
   padding: 20px;
   max-height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
 }
 .projects h1 {
   font-family: 'VT323', monospace;
   font-size: 50px;
   color: #382E58;
 }
-
+.project-container {
+  padding: 20px;
+}
+#frank-home {
+  border-radius: 30px;
+  height: 500px;
+  width: 260px;
+  margin-right: 20px;
+}
+#nommad {
+  height: 500px;
+  width: 520px;
+  margin-right: 20px;
+  border-radius: 30px;
+}
+#pupfetchr {
+  height: 500px;
+  width: 510px;
+  margin-right: 20px;
+  border-radius: 30px;
+}
 
 @keyframes blink {
   from, to { color: #12356d; }

@@ -29,10 +29,11 @@ p {
   padding: 0;
 }
 .bat {
+  text-shadow: 0 0 5px #fff, 0 0 10px #c6b217;
   align-self: left;
-  /* animation:
-    blink 1.5s step-end infinite; */
-    color: white;
+  animation:
+    blink 1.5s step-end infinite;
+  color: #fff;
 }
 .navbar {
   flex-direction: row;
@@ -52,8 +53,9 @@ p {
 }
 .navbar a:hover {
   color: #fff;
-  /* animation:
-    blink 1.5s step-end infinite; */
+  text-shadow: 0 0 5px #fff, 0 0 10px #c6b217;
+  animation:
+    blink 1.5s step-end infinite;
 }
 .navbar h4 {
   font-family: 'Courgette', cursive;
@@ -174,6 +176,6 @@ p {
 }
 
 @keyframes blink {
-  from, to { color: #12356d; }
+  from, to { color: #871f2c; }
   50% { color: #fff; }
 }

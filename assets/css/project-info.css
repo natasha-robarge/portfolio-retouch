@@ -107,6 +107,10 @@ p {
   justify-content: center;
   align-items: flex-start;
 }
+#nommad-img {
+  width: 750px;
+  height: 500px;
+}
 
 @keyframes leftThenRight{
     0%   { margin-left: 0; }

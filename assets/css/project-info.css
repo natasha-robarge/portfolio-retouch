@@ -102,11 +102,7 @@ p {
   justify-content: center;
   align-items: flex-start;
 }
-#nommad-img {
-  width: 750px;
-  height: 500px;
-}
-#nommad-code {
+#nommad-img, #nommad-code, #pupfetchr-code {
   width: 750px;
   height: 500px;
 }

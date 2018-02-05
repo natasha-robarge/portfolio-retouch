@@ -1,8 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  margin-bottom: 50px;
+  background: linear-gradient(to bottom right, #871f2c, #c6b217);
+  padding: 20px;
+}
 .project-title {
   font-family: 'VT323', monospace;
   font-size: 70px;
   color: #382E58;
   text-align: center;
+  padding: 0;
+  margin-bottom: 0;
 }
 h3 {
   font-family: 'VT323', monospace;
@@ -10,15 +21,35 @@ h3 {
   color: #382E58;
   margin-left: 40px;
 }
-#line-rule {
-  width: 30%;
+h4 {
+  font-family: 'VT323', monospace;
+  font-size: 20px;
   color: #382E58;
+  margin-left: 40px;
+  text-align: center;
+}
+#fight-gif {
+  height: 100px;
+  width: 100px;
+  padding-left: 10px;
+}
+#line-rule {
+  width: 20%;
+  color: #382E58;
+  animation: leftThenRight 12s infinite;
 }
 p {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   margin-left: 70px;
   color: #2B292E;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 .project-info {
   margin-left: 30px;
@@ -40,7 +71,45 @@ p {
   height: 500px;
   width: 260px;
 }
-.switch {
+#frank-contract {
+  border-radius: 30px;
+  height: 500px;
+  width: 260px;
+}
+#frank-chatsupport {
+  border-radius: 30px;
+  height: 500px;
+  width: 260px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 0;
+}
+#frank-chatsupport {
+  border-radius: 30px;
+  height: 500px;
+  width: 260px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.switch-direction {
   margin-top: 50px;
   text-align: right;
+}
+.container-switch {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-start;
+}
+.chat-support-container {
+  margin-top: 50px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@keyframes leftThenRight{
+    0%   { margin-left: 0; }
+    50%  { margin-left: 100%; }
+    100% { margin-left: 0; }
 }

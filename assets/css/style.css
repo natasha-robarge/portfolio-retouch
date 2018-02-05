@@ -110,8 +110,14 @@ p {
 .about p {
   text-align: center;
   font-size: 24px;
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.emphasis {
+  font-weight: 800;
+  color: #871f2c;
+  text-shadow: 0 0 5px #fff, 0 0 10px #c6b217;
+  /* font-style: italic; */
 }
 #fight-gif {
   display: inline-block;
@@ -121,6 +127,10 @@ p {
   bottom: 0;
   right: 0;
 }
+.grid {
+  display: flex;
+  justify-content: space-between;
+}
 .skill-title {
   text-align: center;
   font-family: 'VT323', monospace;
@@ -128,13 +138,14 @@ p {
   /* font-weight: 600; */
 }
 .flex-container {
-  display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .skill-names {
   text-align: center;
   font-family: 'Cinzel Decorative', cursive;
-  align-items: flex-start;
   justify-content: space-between;
   padding: 15px;
   font-size: 18px;

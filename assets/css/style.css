@@ -236,6 +236,6 @@ p {
 }
 @keyframes leftThenRight{
     0%   { margin-left: 0; }
-    50%  { margin-left: 100%; }
+    50%  { margin-left: 75%; }
     100% { margin-left: 0; }
 }

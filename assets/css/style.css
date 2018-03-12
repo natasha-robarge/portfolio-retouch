@@ -242,7 +242,7 @@ p {
 
 @media (max-height: 812), screen and (orientation: portrait) {
   .starter {
-    max-height: 70vh;
+    min-height: 80vh !important;
     max-width: 100vh;
     background-image: url('https://www.nerdfitness.com/wp-content/uploads/2014/09/Matrix-713x503.jpg');
     background-repeat: no-repeat;

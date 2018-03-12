@@ -234,8 +234,47 @@ p {
   from, to { color: #871f2c; }
   50% { color: #fff; }
 }
-@keyframes leftThenRight{
+@keyframes leftThenRight {
     0%   { margin-left: 0; }
     50%  { margin-left: 75%; }
     100% { margin-left: 0; }
+}
+
+@media (max-height: 812), screen and (orientation: portrait) {
+  .starter {
+    max-width: 100vh;
+  }
+  .navbar h4 {
+    font-size: 30px;
+  }
+  .about h1 {
+    font-size: 34px;
+  }
+  .about h3 {
+    font-size: 28px;
+  }
+  .about p {
+    font-size: 10px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .flex-container {
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: none;
+  }
+  #frank-home {
+    height: 300px;
+    width: 180px;
+    margin-left: 60px;
+  }
+  #nommad {
+    height: 300px;
+    width: 280px;
+  }
+  #pupfetchr {
+    height: 300px;
+    width: 280px;
+  }
 }

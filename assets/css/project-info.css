@@ -70,20 +70,20 @@ p {
   border-radius: 30px;
   align-self: flex-end;
   height: 500px;
-  width: 240px;
+  width: 230px;
   margin: 0;
 }
 #frank-contract {
   border-radius: 30px;
   height: 500px;
-  width: 240px;
+  width: 230px;
 }
 #frank-chatsupport {
   border-radius: 30px;
   height: 500px;
-  width: 240px;
-  margin-left: 40px;
-  margin-right: 40px;
+  width: 210px;
+  margin-left: 20px;
+  margin-right: 20px;
   padding: 0;
 }
 .switch-direction {
@@ -95,6 +95,7 @@ p {
   flex-direction: row-reverse;
   justify-content: center;
   align-items: flex-start;
+  margin-left: 20px;
 }
 .chat-support-container {
   margin-top: 50px;
@@ -103,7 +104,7 @@ p {
   align-items: flex-start;
 }
 #nommad-img, #nommad-code, #pupfetchr-code {
-  width: 650px;
+  width: 600px;
   height: 500px;
 }
 

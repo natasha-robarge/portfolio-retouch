@@ -113,3 +113,27 @@ p {
     50%  { margin-left: 80%; }
     100% { margin-left: 0%; }
 }
+
+@media (max-height: 812), screen and (orientation: portrait) {
+  p {
+    font-size: 16px;
+  }
+  #frank-home {
+    height: 300px;
+    width: 140px;
+  }
+  #frank-contract {
+    height: 300px;
+    width: 130px;
+  }
+  #frank-chatsupport {
+    height: 300px;
+    width: 130px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #nommad-img, #nommad-code, #pupfetchr-code {
+    width: 300px;
+    height: 200px;
+  }
+}

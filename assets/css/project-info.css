@@ -70,13 +70,13 @@ p {
   border-radius: 30px;
   align-self: flex-end;
   height: 500px;
-  width: 230px;
+  width: 210px;
   margin: 0;
 }
 #frank-contract {
   border-radius: 30px;
   height: 500px;
-  width: 230px;
+  width: 210px;
 }
 #frank-chatsupport {
   border-radius: 30px;
@@ -102,10 +102,12 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+  max-width: 210px;
 }
 #nommad-img, #nommad-code, #pupfetchr-code {
-  width: 600px;
+  width: 520px;
   height: 500px;
+  border-radius: 10px;
 }
 
 @keyframes leftThenRight{
@@ -120,20 +122,20 @@ p {
   }
   #frank-home {
     height: 300px;
-    width: 140px;
+    width: 120px;
   }
   #frank-contract {
     height: 300px;
-    width: 130px;
+    width: 120px;
   }
   #frank-chatsupport {
     height: 300px;
-    width: 130px;
+    width: 120px;
     margin-left: 20px;
     margin-right: 20px;
   }
   #nommad-img, #nommad-code, #pupfetchr-code {
-    width: 300px;
+    width: 250px;
     height: 200px;
   }
 }

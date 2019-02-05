@@ -6,10 +6,12 @@ body {
 }
 h1 {
   font-family: 'Cinzel Decorative', cursive;
+  font-display: auto;
   text-align: center;
 }
 p {
   font-family: 'Poppins', sans-serif;
+  font-display: auto;
   font-size: 20px;
   text-align: center;
   margin-left: 25%;
@@ -31,8 +33,7 @@ p {
 .bat {
   text-shadow: 0 0 5px #fff, 0 0 10px #c6b217;
   align-self: left;
-  animation:
-    blink 1.5s step-end infinite;
+  animation: blink 1.5s step-end infinite;
   color: #fff;
 }
 .navbar {
@@ -54,11 +55,11 @@ p {
 .navbar a:hover {
   color: #fff;
   text-shadow: 0 0 5px #fff, 0 0 10px #c6b217;
-  animation:
-    blink 1.5s step-end infinite;
+  animation: blink 1.5s step-end infinite;
 }
 .navbar h4 {
   font-family: 'Courgette', cursive;
+  font-display: auto;
   font-size: 24px;
   text-align: left;
   margin-left: 30px;
@@ -81,6 +82,7 @@ p {
 #subtitle {
   text-shadow: 0 0 15px #A8F9FF, 0 0 20px #52FFB8;
   font-family: 'Courgette', cursive;
+  font-display: auto;
   color: #fff;
   text-align: right;
   font-size: 26px;
@@ -103,11 +105,13 @@ p {
 }
 .about h1 {
   font-family: 'VT323', monospace;
+  font-display: auto;
   font-size: 50px;
   color: #382E58;
 }
 .about h3 {
   font-family: 'VT323', monospace;
+  font-display: auto;
   text-align: center;
   font-size: 30px;
   color: #382E58;
@@ -142,6 +146,7 @@ p {
 .skill-title {
   text-align: center;
   font-family: 'VT323', monospace;
+  font-display: auto;
   color: #382E58;
 }
 .flex-container {
@@ -153,6 +158,7 @@ p {
 .skill-names {
   text-align: center;
   font-family: 'Poppins', sans-serif;
+  font-display: auto;
   justify-content: space-between;
   padding: 15px;
   font-size: 18px;
@@ -167,11 +173,13 @@ p {
 }
 .projects h1 {
   font-family: 'VT323', monospace;
+  font-display: auto;
   font-size: 50px;
   color: #382E58;
 }
 .projects h3 {
   font-family: 'VT323', monospace;
+  font-display: auto;
   font-size: 30px;
   color: #382E58;
   text-align: center;
@@ -210,11 +218,13 @@ p {
 }
 .contact h1 {
   font-family: 'VT323', monospace;
+  font-display: auto;
   font-size: 50px;
   color: #382E58;
 }
 .contact h3 {
   font-family: 'VT323', monospace;
+  font-display: auto;
   font-size: 30px;
   color: #382E58;
   text-align: center;

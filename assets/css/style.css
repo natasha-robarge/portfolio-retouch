@@ -195,11 +195,13 @@ p {
 }
 #nommad {
   width: 520px;
+  height: 250px;
   margin-right: 20px;
   border-radius: 30px;
 }
 #pupfetchr {
   width: 510px;
+  height: 250px;
   margin-right: 20px;
   border-radius: 30px;
 }

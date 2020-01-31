@@ -73,19 +73,19 @@ p {
 #frank-home {
   border-radius: 30px;
   align-self: flex-end;
-  max-height: 500px;
-  max-width: 210px;
+  height: 500px;
+  width: 210px;
   margin: 0;
 }
 #frank-contract {
   border-radius: 30px;
-  max-height: 500px;
-  max-width: 210px;
+  height: 500px;
+  width: 210px;
 }
 #frank-chatsupport {
   border-radius: 30px;
-  max-height: 500px;
-  max-width: 210px;
+  height: 500px;
+  width: 210px;
   margin-left: 20px;
   margin-right: 20px;
   padding: 0;
@@ -109,8 +109,8 @@ p {
   max-width: 210px;
 }
 #nommad-img, #nommad-code, #pupfetchr-code {
-  max-width: 520px;
-  max-height: 500px;
+  width: 520px;
+  height: 500px;
   border-radius: 10px;
 }
 

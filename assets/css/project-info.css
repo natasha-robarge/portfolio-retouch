@@ -73,19 +73,19 @@ p {
 #frank-home {
   border-radius: 30px;
   align-self: flex-end;
-  height: 500px;
-  width: 210px;
+  max-height: 500px;
+  max-width: 210px;
   margin: 0;
 }
 #frank-contract {
   border-radius: 30px;
-  height: 500px;
-  width: 210px;
+  max-height: 500px;
+  max-width: 210px;
 }
 #frank-chatsupport {
   border-radius: 30px;
-  height: 500px;
-  width: 210px;
+  max-height: 500px;
+  max-width: 210px;
   margin-left: 20px;
   margin-right: 20px;
   padding: 0;
@@ -109,8 +109,8 @@ p {
   max-width: 210px;
 }
 #nommad-img, #nommad-code, #pupfetchr-code {
-  width: 520px;
-  height: 500px;
+  max-width: 520px;
+  max-height: 500px;
   border-radius: 10px;
 }
 
@@ -125,21 +125,21 @@ p {
     font-size: 16px;
   }
   #frank-home {
-    height: 300px;
+    max-height: 300px;
     width: 120px;
   }
   #frank-contract {
-    height: 300px;
+    max-height: 300px;
     width: 120px;
   }
   #frank-chatsupport {
-    height: 300px;
+    max-height: 300px;
     width: 120px;
     margin-left: 20px;
     margin-right: 20px;
   }
   #nommad-img, #nommad-code, #pupfetchr-code {
     width: 250px;
-    height: 200px;
+    max-height: 200px;
   }
 }

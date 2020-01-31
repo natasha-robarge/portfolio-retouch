@@ -170,6 +170,7 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+  margin-left: 50px;
 }
 .projects h1 {
   font-family: 'VT323', monospace;

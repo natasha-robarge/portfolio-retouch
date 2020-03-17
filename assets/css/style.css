@@ -200,8 +200,8 @@ p {
   border-radius: 30px;
 }
 #pupfetchr {
-  width: 510px;
-  height: 510px;
+  width: 410px;
+  height: 410px;
   margin-right: 20px;
   border-radius: 30px;
 }
@@ -289,8 +289,8 @@ p {
     width: 280px;
   }
   #pupfetchr {
-    height: 300px;
-    width: 280px;
+    height: 410px;
+    width: 410px;
   }
   .contact h1 {
     font-size: 35px;

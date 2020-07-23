@@ -30,12 +30,12 @@ p {
   margin: 0;
   padding: 0;
 }
-.bat {
+/* .bat {
   text-shadow: 0 0 5px #fff, 0 0 10px #c6b217;
   align-self: left;
   animation: blink 1.5s step-end infinite;
   color: #fff;
-}
+} */
 .navbar {
   flex-direction: row;
   position: absolute;
